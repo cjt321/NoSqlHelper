@@ -141,7 +141,7 @@ namespace MongoDbHelper.MongoDb
         public virtual TEntity InsertOrUpdate(TEntity entity)
          {
              TEntity findEntity = Get(entity.id);
-             if (findEntity != null)
+             if (findEntity == null)
                  return Insert(entity);
              return Update(entity);
          }
@@ -149,7 +149,7 @@ namespace MongoDbHelper.MongoDb
         public virtual async Task<TEntity> InsertOrUpdateAsync(TEntity entity)
          {
             TEntity findEntity = Get(entity.id);
-            if (findEntity != null)
+            if (findEntity == null)
                 return await InsertAsync(entity);
             return await UpdateAsync(entity);
         }
