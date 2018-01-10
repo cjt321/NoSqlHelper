@@ -31,4 +31,5 @@ typeof(MongoDbHelperModule)
                 IsUseDefaultCollectionName = false
                 
             });
+  - 3.总体如下图：
 ![](http://alunchen-img.oss-cn-shenzhen.aliyuncs.com/github/NoSqlHelper/20180110102729.png)  
