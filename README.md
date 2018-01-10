@@ -21,9 +21,9 @@
 # 使用
 - 在ABP其它模块中首先依赖于：MongoDbHelperModule。如果要换成memcached或documentdb，则依赖于相应的模块。
 - 如果依赖于mongodb，则要在与初始化时，建立与mongodb的连接。
-1. 首先依赖模块：
+  - 1. 首先依赖模块：
 typeof(MongoDbHelperModule)
-2. 然后建立连接：
+  - 2. 然后建立连接：
             Configuration.UseMongoDb(new MongoDbHelperModuleConfiguration()
             {
                 ConnectionString = "mongodb://192.168.1.124:27017/?connectTimeoutMS=300000",
