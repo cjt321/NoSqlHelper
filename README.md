@@ -31,4 +31,4 @@ typeof(MongoDbHelperModule)
                 IsUseDefaultCollectionName = false
                 
             });
-![http://alunchen-img.oss-cn-shenzhen.aliyuncs.com/github/NoSqlHelper/20180110102729.png]()  
+![](http://alunchen-img.oss-cn-shenzhen.aliyuncs.com/github/NoSqlHelper/20180110102729.png)  
